@@ -1,5 +1,6 @@
-#include<stdio.h>
 // write a function to print "Hello!"
+#include<stdio.h>
+
 // function declaration
 void printHello();
 

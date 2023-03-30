@@ -1,5 +1,6 @@
-#include<stdio.h>
 // Write a function that prints Namaste if user is Indian & Bonjour if the user is French.
+#include<stdio.h>
+
 void namaste();
 void bonjour();
 

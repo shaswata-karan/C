@@ -1,6 +1,8 @@
-#include <stdio.h>
 // Function to calculate n factorial (using recursion)
+#include <stdio.h>
+
 int factorial(int n);
+
 int main()
 {
     int n;
@@ -9,6 +11,7 @@ int main()
     printf("factorial is : %d", factorial(n));
     return 0;
 }
+
 int factorial(int n)
 {
     if (n == 0)
