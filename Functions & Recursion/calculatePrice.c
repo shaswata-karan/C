@@ -1,0 +1,18 @@
+// Write a program which will take a value as input and print final value including 18%GST.
+#include<stdio.h>
+
+void calculatePrice(float value);
+
+int main()
+{
+    float value = 100.0;
+    calculatePrice(value);
+    return 0;
+}
+
+void calculatePrice(float value)
+{
+    value = value + (0.18 * value);
+    printf("final price is %f", value);
+}
+    
